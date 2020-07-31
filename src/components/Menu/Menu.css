@@ -25,7 +25,7 @@
     padding-right: 5%;
   
     background: var(--black);
-    border-bottom: 2px solid #aa2222;
+    border-bottom: 2px solid var(--pink);
   }
   body {
     --bodyPaddingTop: 94px;

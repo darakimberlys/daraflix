@@ -7,37 +7,32 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{background : "#141414"}}> 
+    <div style={{background : "#2e2e2e"}}> 
       <Menu />
 
       <BannerMain 
         videoTitle = {dadosIniciais.categorias[0].videos[0].titulo}
         url = {dadosIniciais.categorias[0].videos[0].url}
-        videoDescription = {"Vídeo visto todos os dias"}
+        videoDescription = {"Vídeos para descontrair durante a quarentena, se divertir e livrar a mente do momento atual com um pouco de paz."}
       />
 
       <Carousel
-        ignoreFirstVideo
         category = {dadosIniciais.categorias[0]}
       />
 
       <Carousel
-        ignoreFirstVideo
         category = {dadosIniciais.categorias[1]}
       />
 
       <Carousel
-        ignoreFirstVideo
         category = {dadosIniciais.categorias[2]}
       />
 
       <Carousel
-        ignoreFirstVideo
         category = {dadosIniciais.categorias[3]}
       />
 
       <Carousel
-        ignoreFirstVideo
         category = {dadosIniciais.categorias[4]}
       />
     <Footer />

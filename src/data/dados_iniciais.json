@@ -1,33 +1,32 @@
 {
     "categorias": [
       {
-        "titulo": "Videos marcados como favoritos",
-        "link": "https://youtu.be/f4epTqXMUa4",
-        "cor": "#cc0000",
+        "titulo": "Vídeos engraçados",
+        "cor": "#00bfff",
         "link_extra": {
           "text": "no YouTube",
-          "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe36gJVqX_qeW3TuSbVzu76Z"
+          "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe2T8vGuJLe7rJ0DgNUfwU_8"
         },
         "videos": [
           {
-            "titulo": "Vídeo favorito atualmente",
-            "url": "https://youtu.be/f4epTqXMUa4"
+            "titulo": "O AMOR ESTÁ NO AR NO COISA NOSSA | Laura Seraphim e Matheus Canella são Coisa Nossa",
+            "url": "https://www.youtube.com/watch?v=ciaAHsmMWUo"
           },
           {
-            "titulo": "Jovem Nerd - Making of Natal dos Correios",
-            "url": "https://youtu.be/0A9Pw8MhHKs"
+            "titulo": "TESTANDO COISAS BIZARRAS QUE MINHA MÃE ESCOLHEU!",
+            "url": "https://www.youtube.com/watch?v=11jMHqxgnQ4"
           },
           {
-            "titulo": "Selena Gomez - The Heart Wants What It Wants (Official Video)",
-            "url": "https://youtu.be/ij_0p_6qTss"
+            "titulo": "TENTANDO GOSTAR DE COISAS QUE EU ODEIO..",
+            "url": "https://www.youtube.com/watch?v=yjjbRwGov7w"
           },
           {
-            "titulo": "101: Uma carta aberta para mim mesmo (de daqui a 10 anos)",
-            "url": "https://youtu.be/Xc8wUYdXy30"
+            "titulo": "REAGINDO AS PIORES DESCOLORAÇÕES DE CABELO DO TIK TOK",
+            "url": "https://www.youtube.com/watch?v=dwlYG3SJe3A"
           },
           {
-            "titulo": "The 365 Day Proposal",
-            "url": "https://youtu.be/ECRqF4BHkGk"
+            "titulo": "MEU PRIMEIRO BEIJO ROMÂNTICO - Lorelay Fox",
+            "url": "https://www.youtube.com/watch?v=h0roSEvuf6M&t=1s"
           },
           {
             "titulo": "MICHAEL JACKSON - Nostalgia",
