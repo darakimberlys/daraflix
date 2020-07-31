@@ -80,10 +80,7 @@
           "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe0Qzn7v1BKn_xz9LnyP7rd_"
         },
         "videos": [
-          {
-            "titulo": "Teste de Turing",
-            "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-          },
+         
           {
             "titulo": "GitHub | Guia Completo do Iniciante",
             "url": "https://youtu.be/UbJLOn1PAKw"
@@ -102,10 +99,7 @@
         "titulo": "Filmes favoritos",
         "cor": "orange",
         "videos": [
-          {
-            "titulo": "Interestellar",
-            "url": "https://www.netflix.com/title/70047102?s=a&trkid=13747225&t=cp"
-          },
+         
           {
             "titulo": "Shrek 2",
             "url": "https://www.youtube.com/watch?v=WwmShyngQhY"
