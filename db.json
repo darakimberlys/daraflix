@@ -1,21 +1,174 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+  "categorias": [
+    {
+      "titulo": "Vídeos engraçados",
+      "cor": "#00bfff",
+      "link_extra": {
+        "text": "no YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe2T8vGuJLe7rJ0DgNUfwU_8"
+      },
+      "videos": [
+        {
+          "titulo": "O AMOR ESTÁ NO AR NO COISA NOSSA | Laura Seraphim e Matheus Canella são Coisa Nossa",
+          "url": "https://www.youtube.com/watch?v=ciaAHsmMWUo"
+        },
+        {
+          "titulo": "TESTANDO COISAS BIZARRAS QUE MINHA MÃE ESCOLHEU!",
+          "url": "https://www.youtube.com/watch?v=11jMHqxgnQ4"
+        },
+        {
+          "titulo": "TENTANDO GOSTAR DE COISAS QUE EU ODEIO..",
+          "url": "https://www.youtube.com/watch?v=yjjbRwGov7w"
+        },
+        {
+          "titulo": "REAGINDO AS PIORES DESCOLORAÇÕES DE CABELO DO TIK TOK",
+          "url": "https://www.youtube.com/watch?v=dwlYG3SJe3A"
+        },
+        {
+          "titulo": "MEU PRIMEIRO BEIJO ROMÂNTICO - Lorelay Fox",
+          "url": "https://www.youtube.com/watch?v=h0roSEvuf6M&t=1s"
+        },
+        {
+          "titulo": "MICHAEL JACKSON - Nostalgia",
+          "url": "https://youtu.be/HPVv_oIPW9c"
+        },
+        {
+          "titulo": "Taylor Swift - Blank Space",
+          "url": "https://youtu.be/e-ORhEE9VVg"
+        },
+        {
+          "titulo": "HIDRATAÇÃO CASEIRA POTENTE PARA CABELOS RESSECADOS | DENNIS COSTA",
+          "url": "https://youtu.be/Jj2dac84FR0"
+        }        
+      ]
+    },
+    {
+      "titulo": "Vídeos favoritos de desenvolvimento",
+      "cor": "#ffbf00",
+      "link_extra": {
+        "text": "No Youtube",
+        "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe3KUWqLeDDDVK3VfQ_EHq49"
+      },
+      "videos": [
+        {
+          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+        },
+        {
+          "titulo": "IntelliJ IDEA | Full Course | 2020",
+          "url": "https://youtu.be/yefmcX57Eyg"
+        },
+        {
+          "titulo": "42 IntelliJ IDEA Tips and Tricks",
+          "url": "https://youtu.be/eq3KiAH4IBI"
+        },
+        {
+          "titulo": "Java: Read a CSV File into an Array",
+          "url": "https://youtu.be/-Aud0cDh-J8"
+        }, 
+        {
+          "titulo": "Seja um Programador Melhor: 10 Repositórios SENSACIONAIS no GitHub (tudo Open Source!)",
+          "url": "https://www.youtube.com/watch?v=vGQSG_YnTOw"
         }
-      }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "titulo": "Sobre Git e GitHub",
+      "cor": "#48d1cc",
+      "link_extra": {
+        "text": "No YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe0Qzn7v1BKn_xz9LnyP7rd_"
+      },
+      "videos": [
+       
+        {
+          "titulo": "GitHub | Guia Completo do Iniciante",
+          "url": "https://youtu.be/UbJLOn1PAKw"
+        },
+        {
+          "titulo": "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
+          "url": "https://youtu.be/2alg7MQ6_sI"
+        },
+        {
+          "titulo": "Github: Criando um Branch e fazendo um Merge",
+          "url": "https://youtu.be/NR9jc5ODvuM"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes favoritos",
+      "cor": "orange",
+      "videos": [
+       
+        {
+          "titulo": "Shrek 2",
+          "url": "https://www.youtube.com/watch?v=WwmShyngQhY"
+        },
+        {
+          "titulo": "Shrek Terceiro",
+          "url": "https://youtu.be/ev8N_mGPqCI"
+        },
+        {
+          "titulo": "A Viagem de Chihiro",
+          "url": "https://youtu.be/k6HzOTKfkxQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "Assassin's Creed 3",
+          "url": "https://youtu.be/-pUhraVG7Ow"
+        },
+        {
+          "titulo": "The Sims 4",
+          "url": "https://youtu.be/z00mK3Pxc8w"
+        },
+        {
+          "titulo": "Stardew Valley",
+          "url": "https://youtu.be/UzowO9v_-oc"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}

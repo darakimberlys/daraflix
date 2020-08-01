@@ -1,16 +1,15 @@
 /* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
-// import dadosIniciais from '../../data/dados_iniciais.json';
+import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
-import categoriasRepository from '../../repositories/categorias';
+//import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
-    // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
         console.log(categoriasComVideos[0].videos[0]);
