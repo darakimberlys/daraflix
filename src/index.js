@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
-import cadastroVideo from "./pages/Cadastro/Video";
-import cadastroCategoria from "./pages/Cadastro/Categoria";
+import cadastroVideo from "./pages/cadastro/Video";
+import cadastroCategoria from "./pages/cadastro/Categoria"
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 ReactDOM.render(

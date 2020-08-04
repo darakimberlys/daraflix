@@ -21,32 +21,63 @@ const Container = styled.ul`
   
   .slick-prev {
     left: 0;
+    width: 35px;
+    background-color: var(--black);
+    height: 100%;
   }
   .slick-next {
-    right: 16px;
+    right: 0;
+    background-color: var(--black);
+    width: 35px;
+    height: 100%;
+  }
+  @media (max-width: 640px) {
+    .slick-prev, .slick-next {
+      background-color: var(--black);
+    }
+    
+    .slick-prev:before, .slick-next:before {
+      display: none;
+    }
+  }
+  .slick-prev:before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f053";
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .slick-next:before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 30px;
+    font-weight: 900;
   }
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 16px;
+  margin-right: 4px;
   img {
     margin: 16px;
-    width: 298px;
-    height: 197px;
     object-fit: cover;
   }
+  a:hover {
+    transition:500ms;
+    transform:scale(1.2);
+    margin:0 30px 0 30px;
+  }
 `;
-
 
 const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      slidesToShow: 5,
+      slidesToScroll: 3,
     }}
     >
       {children}
@@ -54,4 +85,4 @@ const Slider = ({ children }) => (
   </Container>
 );
 
-export default Slider; 
+export default Slider;
