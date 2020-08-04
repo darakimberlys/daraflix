@@ -2,66 +2,53 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
-  const valoresIniciais = {
+  const initialValues = {
     nome: '',
     descricao: '',
     cor: '',
-  }
+  };
+  const { handleChange, values, clearForm } = useForm(initialValues);
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-
-  function setValue(chave, valor) {
-    // chave: nome, descricao, bla, bli
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    })
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value
-    );
-  }
-
-  // ============
 
   useEffect(() => {
-    if(window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias'; 
-      fetch(URL)
-       .then(async (respostaDoServer) =>{
-        if(respostaDoServer.ok) {
-          const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
-          return; 
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://daraflix.herokuapp.com/categorias';
+    fetch(URL)
+      .then(async (response) => {
+        if (response.ok) {
+          const result = await response.json();
+          setCategorias(result);
+          return;
         }
-        throw new Error('Não foi possível pegar os dados');
-       })
-    }    
+        throw new Error('Não foi possível carregar os dados');
+      });
   }, []);
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values.nome}</h1>
+      <h1>
+        Cadastro de Categoria:&nbsp;
+        {values.nome}
+      </h1>
 
-      <form onSubmit={function handleSubmit(infosDoEvento) {
-          infosDoEvento.preventDefault();
+      <form onSubmit={function handleSubmit(params) {
+        params.preventDefault();
+        setCategorias([
+          ...categorias,
+          values,
+        ]);
 
-          setCategorias([
-            ...categorias,
-            values
-          ]);
-
-          setValues(valoresIniciais)
-      }}>
+        clearForm();
+      }}
+      >
 
         <FormField
-          label="Nome da Categoria"
+          label="Nome"
           type="text"
           name="nome"
           value={values.nome}
@@ -69,23 +56,12 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
-          type="????"
+          label="Descrição"
+          type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
         />
-        {/* <div>
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={values.descricao}
-              name="descricao"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
 
         <FormField
           label="Cor"
@@ -94,46 +70,26 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
-        {/* <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={values.cor}
-              name="cor"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
 
-        <button>
+        <Button>
           Cadastrar
-        </button>
-      </form>
+        </Button>
 
-      {categorias.length === 0 && (
-        <div>
-          {/*Cargando*/}
-          Loading...
-        </div>
-        )
-      }
-    
-      <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
+        <ul>
+          {categorias.map((categoria) => (
+            <li key={`${categoria.titulo}`}>
               {categoria.titulo}
             </li>
-          )
-        })}
-      </ul>
+          ))}
+        </ul>
 
+      </form>
       <Link to="/">
-        Ir para home
+        Ir para Home
       </Link>
+
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;

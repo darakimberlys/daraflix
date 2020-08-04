@@ -8,7 +8,13 @@ function Footer() {
         
       </a>
       <p>
-        Orgulhosamente criado durante a
+        Criado por
+        {' '}
+        <a href="https://www.linkedin.com/in/darakimberlys/">
+          Dara Kimberly
+        </a>
+        {' '}
+        durante a
         {' '}
         <a href="https://www.alura.com.br/">
           Imersão React da Alura
