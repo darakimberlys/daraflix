@@ -1,6 +1,3 @@
-<h2 align="center"> 
-Imersão React - AluraFlix  <img alt="Logo Alura" width="80px" src="./assets/logo-alura.svg" />
-
 </h2>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/darakimberlys/daraflix?color=%2304D361">
