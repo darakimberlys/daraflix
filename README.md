@@ -8,4 +8,4 @@ https://daraflix.vercel.app/
 
 ## Atualizações
 
-O projeto ainda está sendo feito, tendo a previsão de término para 31/07/2020!
+O projeto ainda está sendo feito, tendo a previsão de término para 05/08/2020!
