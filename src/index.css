@@ -34,6 +34,6 @@ a {
 }
 
 ::-webkit-scrollbar-thumb { 
-  background-color: var(--primary);
+  background-color: var(--pink);
   border-radius: 5px;
 }

@@ -21,11 +21,11 @@ export const MenuWrapper = styled.nav`
   padding-left: 5%;
   padding-right: 5%;
   background: var(--black);
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 2px solid var(--pink);
 `;
 
 export const ButtonLink = styled.button`
-  background-color: var(--primary);
+  background-color: var(--pink);
   font-size: 10px;
   height: 2.3em;
   width: 2.3em;

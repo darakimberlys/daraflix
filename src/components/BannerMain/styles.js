@@ -9,12 +9,10 @@ export const ContentAreaContainer = styled.section`
   justify-content: center;
   position: relative;
   z-index: 10;
-  border-bottom: 2px solid var(--pink);
-
+  
   @media (max-width: 800px) {
     padding-top: 100px;
     flex-direction: column;
-    border-bottom: 2px solid var(--pink);
   }
 `;
 
@@ -75,7 +73,6 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
-  border-bottom: 2px solid var(--pink);
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -90,15 +87,12 @@ export const BannerMainContainer = styled.section`
     right: 0;
     margin: auto;
     height: 30%;
-    border-bottom: 2px solid var(--pink);
-
   }
 
   &:before {
     top: 0;
     height: 0%;
     background: var (--black);
-      border-bottom: 2px solid var(--pink);
   }
 
   &:after {
@@ -112,18 +106,17 @@ export const WatchButton = styled.button`
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   cursor: pointer;
-  padding: 16px 24px;
+  padding: 11px 20px;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   outline: none;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
   color: var(--white);
-  background: var(--white);
-  border-bottom: 2px solid var(--pink);
+  background: var(--pink);
   transition: opacity .3s;
   display: none;
   margin: 0 auto;
