@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
@@ -30,27 +31,6 @@ const Container = styled.ul`
     background-color: #00000040;
     width: 35px;
     height: 100%;
-  }
-  @media (max-width: 640px) {
-    .slick-prev, .slick-next {
-      background-color: #00000000;
-    }
-    
-    .slick-prev:before, .slick-next:before {
-      display: none;
-    }
-  }
-  .slick-prev:before {
-    font-family: "Font Awesome\ 5 Free";
-    content: "\f053";
-    font-size: 30px;
-    font-weight: 900;
-  }
-  .slick-next:before {
-    font-family: "Font Awesome\ 5 Free";
-    content: "\f054";
-    font-size: 30px;
-    font-weight: 900;
   }
 `;
 
