@@ -22,18 +22,18 @@ const Container = styled.ul`
   .slick-prev {
     left: 0;
     width: 35px;
-    background-color: var(--black);
+    background-color: #00000040;
     height: 100%;
   }
   .slick-next {
     right: 0;
-    background-color: var(--black);
+    background-color: #00000040;
     width: 35px;
     height: 100%;
   }
   @media (max-width: 640px) {
     .slick-prev, .slick-next {
-      background-color: var(--black);
+      background-color: #00000000;
     }
     
     .slick-prev:before, .slick-next:before {
