@@ -11,12 +11,8 @@
     },
     {
       "id": 2,
-      "titulo": "Vídeos favoritos de desenvolvimento",
-      "cor": "#ffbf00",
-      "link_extra": {
-      "text": "No Youtube",
-      "url": "https://www.youtube.com/playlist?list=PLGjxBh-6_Pe3KUWqLeDDDVK3VfQ_EHq49"
-    }
+      "titulo": "Meteoro",
+      "cor": "#31639c"
     },
     {
       "id": 3,
@@ -90,32 +86,32 @@
   {
     "id": 9,
     "categoriaId": 2,
-    "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-    "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+    "titulo": "PERNALONGA DE BATOM, AOS 80 ANOS",
+    "url": "https://www.youtube.com/watch?v=xn06HETfzTg"
   },
   {
     "id": 10,
     "categoriaId": 2,
-    "titulo": "IntelliJ IDEA | Full Course | 2020",
-    "url": "https://youtu.be/yefmcX57Eyg"
+    "titulo": "A CARA DA EVANGELIZAÇÃO INFANTIL",
+    "url": "https://www.youtube.com/watch?v=OBfI3-Gu8LI"
   },
   {
     "id": 11,
     "categoriaId": 2,
-    "titulo": "42 IntelliJ IDEA Tips and Tricks",
-    "url": "https://youtu.be/eq3KiAH4IBI"
+    "titulo": "COMO FUNCIONA O FASCISMO (NO BRASIL) #meteoro.doc",
+    "url": "https://www.youtube.com/watch?v=4MJ2mMJIKbM"
   },
   {
     "id": 12,
     "categoriaId": 2,
-    "titulo": "Java: Read a CSV File into an Array",
-    "url": "https://youtu.be/-Aud0cDh-J8"
+    "titulo": "QUEM É OLAVO DE CARVALHO? #meteoro.doc",
+    "url": "https://www.youtube.com/watch?v=Mz9f3fLks9s"
   }, 
   {
     "id": 13,
     "categoriaId": 2,
-    "titulo": "Seja um Programador Melhor: 10 Repositórios SENSACIONAIS no GitHub (tudo Open Source!)",
-    "url": "https://www.youtube.com/watch?v=vGQSG_YnTOw"
+    "titulo": "O QUE FOI O MENSALÃO? #meteoro.doc",
+    "url": "https://www.youtube.com/watch?v=slfbZA7-qv4"
   },
   {
     "id": 15,
