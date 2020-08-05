@@ -9,9 +9,12 @@ export const ContentAreaContainer = styled.section`
   justify-content: center;
   position: relative;
   z-index: 10;
+  border-bottom: 2px solid var(--pink);
+
   @media (max-width: 800px) {
     padding-top: 100px;
     flex-direction: column;
+    border-bottom: 2px solid var(--pink);
   }
 `;
 
@@ -72,6 +75,7 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
+  border-bottom: 2px solid var(--pink);
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -85,18 +89,22 @@ export const BannerMainContainer = styled.section`
     left: 0;
     right: 0;
     margin: auto;
-    height: 20%;
+    height: 30%;
+    border-bottom: 2px solid var(--pink);
+
   }
 
   &:before {
     top: 0;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
+    height: 0%;
+    background: var (--black);
+      border-bottom: 2px solid var(--pink);
   }
 
   &:after {
     bottom: 0;
-    background: linear-gradient(0deg, #141414 0%, transparent 100%);
+    height: 100%;
+    background: linear-gradient(1deg, #141414 5%, transparent 100%);
   }
 `;
 
@@ -115,7 +123,7 @@ export const WatchButton = styled.button`
   border: 1px solid transparent;
   color: var(--white);
   background: var(--white);
-  border-color: var(--white);
+  border-bottom: 2px solid var(--pink);
   transition: opacity .3s;
   display: none;
   margin: 0 auto;
